@@ -1,27 +1,31 @@
-# la maREPOsa
+# Telehandler
 
-A few sentences about your tool, e.g.
-
-la maREPOsa allows you to go through all the initiation process of new git/GitHub projects with just a single terminal command.
+Telehandler aims to give a convenient possibility to send your friends an automated message, when you are away from Telegram.
 
 
 # Installation
 
-How do I get it to run?
-
-If you don't use `pipsi`, you're missing out.
-Here are [installation instructions](https://github.com/mitsuhiko/pipsi#readme).
-
-Simply run:
-
-    $ pipsi install .
+```bash
+# download the repo
+# activate a venv
+# install the requirements.txt
+# get your API credentials https://core.telegram.org/api/obtaining_api_id
+# add TELEGRAM_API_ID and TELEGRAM_API_HASH to your script or to your environment variables
+```
 
 
 # Usage
 
-What can I do with it?
+```bash
+python3 autoreplier.py
+```
 
-To use it:
+The Telehandler will run in the background and process new incoming messages with an automted reply.
 
-    $ mareposa --help
+# Meta
 
+Stability and side effects were not tested so far.
+
+Inspired by this great blog post:
+
+<a href="https://medium.com/@jiayu./automatic-replies-for-telegram-85075f28321" target="_blank">Medium Post by Jiayu Yi</a>
