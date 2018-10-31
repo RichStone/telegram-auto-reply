@@ -1,6 +1,6 @@
 # Telehandler
 
-Telehandler aims to give a convenient possibility to send your friends an automated message, when you are away from Telegram.
+Telehandler aims to give a convenient possibility to send your friends an automated message, when you are away from Telegram for some time.
 
 
 # Installation
@@ -20,7 +20,7 @@ Telehandler aims to give a convenient possibility to send your friends an automa
 python3 autoreplier.py
 ```
 
-The Telehandler will run in the background and process new incoming messages with an automted reply.
+The Telehandler will run in the background and process new incoming messages with an automated reply.
 
 # Meta
 
