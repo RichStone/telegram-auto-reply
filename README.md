@@ -5,13 +5,11 @@ Telehandler aims to give a convenient possibility to send your friends an automa
 
 # Installation
 
-```bash
-# download the repo
-# activate a venv
-# install the requirements.txt
-# get your API credentials https://core.telegram.org/api/obtaining_api_id
-# add TELEGRAM_API_ID and TELEGRAM_API_HASH to your script or to your environment variables
-```
+1. download the repo
+2. activate a venv
+3. install the requirements.txt
+4. get your API credentials https://core.telegram.org/api/obtaining_api_id
+5. add TELEGRAM_API_ID and TELEGRAM_API_HASH to your script or, **much better**, to your environment variables / a secret file
 
 
 # Usage
